@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio Contact</title>
+  <link rel="shortcut icon" href="img/favicon-32x32.ico">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <header class="page-header">
+       <!-- Insert Logo here -->
+       <img src="img/project-portfolio-logo.png" alt="logo" class="page-header__item">
+       <nav class="main-navigation page-header__item">
+          <ul role="menubar" class="navigation-list">
+             <li role="presentation">
+                <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+             </li>
+             <li role="presentation">
+                <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+             </li>
+             <li role="presentation">
+                <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item">Work</a>
+             </li>
+             <li role="presentation">
+                <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+             </li>
+          </ul>
+       </nav>
+    </header>
+
+  <div>
+    <h1 class="contact-header">Contact</h1>
+  </div>
+
+  <div class="contact-info">
+    Andrew <br>
+    Steeple rd 1234 <br>
+    54631 Belmont <br>
+    United States <br>
+    <br>
+    Telephone: <a href="tel:+491234567">+49-123-4567</a><br>
+    Skype: <a href="skype:hello.andrew">hello.andrew</a><br>
+    Email: <a href="mailto:email@gmail.com">email@gmail.com</a><br>
+    <a href="mailto:email@gmail.com">Contact me</a>
+  </div>
+
+  <form action="" method="post" id="contact-form">
+    <br>
+    <label class="standard-label" for="contact-email">Email: </label>
+    <input type="email" id="contact-email" required>
+    <br>
+    <label class="standard-label" for="contact-tel">Telephone: </label>
+    <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+    <br>
+    <label class="standard-label" for="contact-message">Message: </label>
+    <textarea required maxlength="240" id="contact-message" ></textarea>
+    <br>
+    <input type="submit" value="Send message">
+  </form>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <!-- Insert social media icons here -->
+      <img src="img/github_icon.svg" alt="github">
+      <img src="img/twitter_icon.svg" alt="twitter">
+      <img src="img/linkedin_icon.svg" alt="linkedin">
+    </div>
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
